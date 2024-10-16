@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+section {
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    min-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.heading {
+    font-family: "DM Sans", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #1E0E62;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+table,
+td,
+tr,
+th {
+    border: 2px solid #EBEAED;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.headings {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: right;
+    color: #15143966;
+}
+
+td {
+    color: #1E0E62;
+    text-align: center;
+    align-items: center;
+}
+
+th {
+    text-align: center;
+    padding: 17px 20px;
+}
+
+td {
+    font-family: "DM Sans", sans-serif;
+    padding: 15px 20px;
+}
+
+.white-space-no-wrap {
+    white-space: nowrap;
+}
+
+.table-heading {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #1E0E62;
+}
+
+.para {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #1E0E62;
+}
+
+.btn {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    padding: 12px 30px;
+    border-radius: 100px;
+    color: #1E0E62;
+    background-color: #ffffff;
+    border: 2px solid #EBEAED;
+    cursor: pointer;
+}
+
+.bg-color {
+    background-color: #25DAC5;
+    color: #ffffff;
+}
+
+.price-list {
+    font-family: "DM Sans", sans-serif;
+    font-size: 35px;
+    position: relative;
+}
+
+.doller {
+    font-size: 16px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font: weight 3000;
+}
+
+.number {
+    font-family: "Dm sans", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 500;
+}
+
+th {
+    background: #F5F5F6;
+}
+
+@media (max-width:992px) {
+    .overflow-x{
+        overflow-x: scroll;
+    }
+}
